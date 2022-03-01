@@ -1,0 +1,257 @@
+* {
+  font-family: "Montserrat", "Arimo", sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+  list-style: none;
+}
+/* Nav Bar */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.spotifyImg {
+  width: 141.7px;
+  height: 48.7px;
+}
+
+.border {
+  border: red 4px dotted;
+}
+
+nav {
+  background-color: black;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+nav ul .navRight {
+  width: 70%;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 900;
+}
+a:hover {
+  color: #1ed760;
+}
+nav ul li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.liMargin {
+  margin: 0px 20px;
+}
+
+.navLogo {
+  width: 30%;
+  margin-left: 20%;
+  display: flex;
+  align-self: center;
+}
+
+/* Main Page   */
+
+.section1 {
+  background-image: url(/Images/Background.png);
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Background Image Text */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 150px;
+  font-weight: 800;
+  color: #1ed760;
+  order: 1;
+  letter-spacing: -5px;
+  padding: 0px, 100px, 0px, 0px;
+  display: inline-block;
+}
+
+.br {
+  padding-left: 50px;
+}
+
+.h2m {
+  margin-left: 800px;
+  margin-bottom: 50px;
+  order: 2;
+  height: 170px;
+  width: 900px;
+  display: inline-block;
+}
+
+/* Paragraph */
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  color: #1ed760;
+  font-size: 0.8em;
+}
+
+/* Button*/
+button {
+  display: flex;
+  justify-content: center;
+  margin-left: 44%;
+  margin-top: 50px;
+}
+
+.myButton {
+  background-color: #1ed760;
+  border-radius: 28px;
+  border: 1px solid #1ed760;
+  display: inline-block;
+  cursor: pointer;
+  color: #2941ab;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  order: 4;
+  width: 200px;
+}
+.myButton:hover {
+  background-color: #2941ab;
+  color: #1ed760;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 0px 40px;
+  padding-top: 60px;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: row;
+}
+
+footer img {
+  width: 141.7px;
+  height: 48.7px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.spotifyy {
+  margin-right: 100px;
+}
+
+footer ul li a {
+  font-size: 0.69em;
+  font-weight: 900;
+}
+
+.footerStyle {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+footer h3 {
+  font-size: 0.69em;
+  color: grey;
+  font-weight: 900;
+}
+
+.footerLogos {
+  display: flex;
+  height: 300px;
+  width: 500px;
+}
+
+footer .footerLogos img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  width: 50px;
+  margin: 50px 10px;
+}
+
+.ulfoot {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLi {
+  font-size: 0.7em;
+  font-weight: 0;
+  color: rgb(163, 163, 163);
+  margin: 12px 5px;
+}
+
+.navli1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
